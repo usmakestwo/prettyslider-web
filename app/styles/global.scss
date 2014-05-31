@@ -11,13 +11,21 @@ body {
 
 section {
     width: 100%;
-    background: $bg-intro;
     text-align: center;
-    &.share {
+    &#intro {
+        background: $bg-intro;
+    }
+    &#share {
         height: 60px;
         padding: 14px 0;
         background: whitesmoke;
         border-bottom: 2px solid darken($bg-share, 8%);
+    }
+    &#usage {
+        background: #e74c3c;
+        h2{
+            color: whitesmoke;
+        }
     }
     header {
         padding: 2em 0 0.35em 0;
