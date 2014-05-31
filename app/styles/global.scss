@@ -11,26 +11,26 @@ body {
 
 section {
     width: 100%;
-    height: 100%;
     background: $bg-intro;
     text-align: center;
-    &.share{
-        height: 150px;
-        background: red;
+    &.share {
+        height: 60px;
+        background: $bg-share;
+        border-bottom: 2px solid darken($bg-share, 8%);
     }
     header {
         padding: 2em 0 0.35em 0;
         color: $t-header;
         font-weight: 800;
         font-size: 4em;
-        text-shadow: 0 2px 0 transparentize($t-header-dark, 0.3);
+        text-shadow: 0 2px 0 $t-header-shadow;
         letter-spacing: -1px;
     }
     h2 {
         color: $t-header;
         font-weight: 600;
         font-size: 1.5em;
-        text-shadow: 0 1px 0 transparentize($t-header-dark, 0.3);
+        text-shadow: 0 1px 0 $t-header-shadow;
     }
 }
 
