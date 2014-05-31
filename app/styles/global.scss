@@ -15,7 +15,8 @@ section {
     text-align: center;
     &.share {
         height: 60px;
-        background: $bg-share;
+        padding: 14px 0;
+        background: whitesmoke;
         border-bottom: 2px solid darken($bg-share, 8%);
     }
     header {
