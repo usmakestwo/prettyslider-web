@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
   var windowHeight = $(window).height();
-  $('#intro').height(windowHeight-150);
+  $('#intro').height(windowHeight - 150);
 });
 
