@@ -46,6 +46,7 @@ section {
         margin: 2em auto 0 auto;
     }
     li {
+        margin: 10px 0 0 0;
         color: whitesmoke;
         font-weight: 400;
         font-size: 1.15em;
@@ -53,7 +54,7 @@ section {
         text-align: left;
         position: relative;
         &:before {
-            content: "1.";
+            content: attr(data-number);
             position: absolute;
             top: 0;
             left: -25px;
