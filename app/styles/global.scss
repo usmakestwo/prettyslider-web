@@ -46,13 +46,14 @@ section {
         margin: 2em auto 0 auto;
     }
     li {
+        position: relative;
         margin: 10px 0 0 0;
         color: whitesmoke;
         font-weight: 400;
         font-size: 1.15em;
         line-height: 1.5em;
+        letter-spacing: -0.02em;
         text-align: left;
-        position: relative;
         &:before {
             content: attr(data-number);
             position: absolute;
