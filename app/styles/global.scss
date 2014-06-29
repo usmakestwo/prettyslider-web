@@ -22,7 +22,7 @@ section {
     border-bottom: 2px solid darken($bg-share, 8%);
   }
   &#usage {
-    background: #e74c3c;
+    background: $colorRed;
     h2{
         color: whitesmoke;
     }
@@ -64,6 +64,22 @@ section {
   }
   table {
     margin: 0 auto !important;
+  }
+}
+
+footer {
+  width: 100%;
+  padding: 1em 1em 1em 0;
+  background: #e74c3c;
+  color: rgba(255,255,255,0.4);
+  font-size: 0.8125em;
+  text-align: right;
+  a:link, a:visited {
+    color: inherit;
+    transition: color 0.2s ease-in;
+    &:hover {
+      color: white;
+    }
   }
 }
 
