@@ -15,13 +15,14 @@
         <!-- build:css styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
+        <link rel="stylesheet" href="/bower_components/pretty-slider/prettyslider.css">
 
         <!-- build:js scripts/vendor/modernizr.js -->
         <script src="bower_components/modernizr/modernizr.js"></script>
         <script src="bower_components/angular/angular.js"></script>
         <!-- endbuild -->
     </head>
-    <body>
+    <body ng-app="app">
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -29,7 +30,7 @@
         <section id="intro">
             <header class="intro">Pretty Slider</header>
             <h2>A beautiful jQuery-less slider implementation for AngularJS.</h2>
-            <div slider floor="0" ceiling="1000" step="50" precision="2" ng-model="item.cost"></div>
+            <div pretty-slider floor="0" ceiling="1000" step="50" precision="2" ng-model="item.cost"></div>
         </section>
         <section id="share">
             <iframe src="http://ghbtns.com/github-btn.html?user=gonzalovazquez&repo=angular-slider&type=watch&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:170px; height: 30px;" allowTransparency="true"></iframe>
@@ -49,7 +50,7 @@
                 <ol>
                     <li data-number="5.">You can then use it in your template like so:</li>
                 </ol>
-                    <pre><code class="language-markup"> &ltdiv slider floor="0" ceiling="1000" step="50" precision="2" ng-model="item.cost"&gt</code></pre>
+                    <pre><code class="language-markup"> &ltdiv pretty-slider floor="0" ceiling="1000" step="50" precision="2" ng-model="item.cost"&gt</code></pre>
             </div>
 
 
@@ -80,5 +81,6 @@
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
         <script src="scripts/prism.js"></script>
+        <script src="/bower_components/pretty-slider/prettyslider.js"></script>
 </body>
 </html>
