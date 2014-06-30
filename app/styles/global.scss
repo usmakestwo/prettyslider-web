@@ -9,6 +9,13 @@ body {
   padding: 0.2em 0;
 }
 
+a:link, a:visited {
+  color: inherit;
+  &:hover {
+    color: white;
+  }
+}
+
 section {
   width: 100%;
   text-align: center;
@@ -69,17 +76,17 @@ section {
 
 footer {
   width: 100%;
-  padding: 1em 1em 1em 0;
+  padding: 2em 1em 1em 0;
   background: #e74c3c;
   color: rgba(255,255,255,0.4);
   font-size: 0.8125em;
   text-align: right;
-  a:link, a:visited {
-    color: inherit;
-    transition: color 0.2s ease-in;
-    &:hover {
-      color: white;
-    }
+  -webkit-transition: color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in;
+  -o-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
+  &:hover {
+    color: white;
   }
 }
 
