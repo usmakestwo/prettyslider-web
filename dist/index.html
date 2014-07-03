@@ -7,20 +7,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <!-- endbower -->
-        <!-- endbuild -->
+        <link rel="stylesheet" href="styles/vendor.css">
 
-        <!-- build:css styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
-        <!-- endbuild -->
         <link rel="stylesheet" href="/bower_components/pretty-slider/prettyslider.css">
 
-        <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="bower_components/modernizr/modernizr.js"></script>
-        <script src="bower_components/angular/angular.js"></script>
-        <!-- endbuild -->
+        <script src="scripts/vendor/modernizr.js"></script>
     </head>
     <body ng-app="app">
         <!--[if lt IE 10]>
@@ -46,7 +38,7 @@
                     <li data-number="3.">Make sure to load AngularJS first in your HTML, followed by angular-slider.js file. Don't forget to include the related angular-slider.css file.</li>
                     <li data-number="4.">The module name is named slider. To enable it, you must simply list it as a dependency in your app. Example:</li>
                 </ol>
-                    <pre><code class="language-javascript">var app = angular.module('app', ['prettySlider', 'ngResource', ...]);</code></pre>
+                    <pre><code class="language-javascript">var app = angular.module('app', ['uiSlider', 'ngResource', ...]);</code></pre>
                 <ol>
                     <li data-number="5.">You can then use it in your template like so:</li>
                 </ol>
@@ -71,15 +63,9 @@
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
 
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="bower_components/jquery/dist/jquery.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
+        <script src="scripts/vendor.js"></script>
 
-        <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
-        <!-- endbuild -->
         <script src="scripts/prism.js"></script>
         <script src="/bower_components/pretty-slider/prettyslider.js"></script>
 </body>

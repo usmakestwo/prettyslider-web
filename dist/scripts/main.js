@@ -1,0 +1,1 @@
+jQuery(document).ready(function(i){var e=i(window).height(),n=e-60;i("#intro").css("min-height",n),i("#usage").css("min-height",e)});
