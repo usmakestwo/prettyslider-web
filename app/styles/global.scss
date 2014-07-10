@@ -42,6 +42,9 @@ section {
     text-shadow: 0 2px 0 $t-header-shadow;
     letter-spacing: -1px;
   }
+  article {
+    margin: 10em 0 0 0;
+  }
   h2 {
     color: $t-header;
     font-weight: 600;
@@ -68,6 +71,12 @@ section {
         top: 0;
         left: -25px;
     }
+  }
+  h3 {
+    @extend li;
+    width: 18.75em;
+    margin: 1em auto;
+    text-align: right;
   }
   table {
     margin: 0 auto !important;

@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js">
+<html ng-app="app">
     <head>
         <meta charset="utf-8">
         <title>Pretty Slider: a jQuery-less slider</title>
@@ -22,7 +22,7 @@
         <script src="bower_components/angular/angular.js"></script>
         <!-- endbuild -->
     </head>
-    <body ng-app="app">
+    <body ng-controller="mainCtrl">
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -30,7 +30,10 @@
         <section id="intro">
             <header class="intro">Pretty Slider</header>
             <h2>A beautiful jQuery-less slider implementation for AngularJS.</h2>
-            <div pretty-slider floor="0" ceiling="1000" step="50" precision="2" ng-model="item.cost"></div>
+            <article>
+              <div pretty-slider floor="0" ceiling="1000" step="50" precision="2" ng-model="item.cost"></div>
+              <h3> {{ item.cost }} </h3>
+            </article>
         </section>
         <section id="share">
             <table><tr><td><iframe src="http://ghbtns.com/github-btn.html?user=usmakestwo&repo=pretty-slider&type=watch&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:170px; height: 30px;" allowTransparency="true"></iframe></td><td><iframe src="http://ghbtns.com/github-btn.html?user=usmakestwo&repo=pretty-slider&type=fork&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:170px; height: 30px;" allowTransparency="true"></iframe></td><td><iframe src="http://ghbtns.com/github-btn.html?user=usmakestwo&type=follow&count=true&size=large" height="30" width="240" frameborder="0" scrolling="0" style="width:240px; height: 30px;" allowTransparency="true"></iframe></td></tr></table>
