@@ -27,6 +27,7 @@ test/bower_components
 *.zip
 *node_modules
 *public
+*dist
 
 # Logs and databases #
 ######################
