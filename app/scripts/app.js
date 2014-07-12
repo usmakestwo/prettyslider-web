@@ -1,4 +1,5 @@
-var app = angular.module('app', ['uiSlider']);
-app.controller('mainCtrl', ['$scope', function($scope) {
-  $scope.item.cost = 0;
-}]);
+var app = angular.module('app', ['prettySlider'])
+
+app.controller('mainCtrl', function($scope) {
+	$scope.item = {cost: 0};
+});
