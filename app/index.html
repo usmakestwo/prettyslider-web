@@ -28,12 +28,14 @@
       <![endif]-->
 
       <section id="intro">
-        <header class="intro">Pretty Slider</header>
-        <h2>A beautiful jQuery-less slider implementation for AngularJS.</h2>
-          <article>
-            <div pretty-slider floor="0" ceiling="1000" step="50" precision="2" ng-model="item.cost"></div>
-            <h3> {{ item.cost }} </h3>
-          </article>
+        <div class="fade-container">
+          <header class="intro">Pretty Slider</header>
+          <h2>A beautiful jQuery-less slider implementation for AngularJS.</h2>
+            <article>
+              <div pretty-slider floor="0" ceiling="1000" step="10" precision="2" ng-model="item.cost"></div>
+              <h3> {{ item.cost | currency }} </h3>
+            </article>
+        </div>
       </section>
       <section id="share">
           <table><tr><td><iframe src="http://ghbtns.com/github-btn.html?user=usmakestwo&repo=pretty-slider&type=watch&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:170px; height: 30px;" allowTransparency="true"></iframe></td><td><iframe src="http://ghbtns.com/github-btn.html?user=usmakestwo&repo=pretty-slider&type=fork&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:170px; height: 30px;" allowTransparency="true"></iframe></td><td><iframe src="http://ghbtns.com/github-btn.html?user=usmakestwo&type=follow&count=true&size=large" height="30" width="240" frameborder="0" scrolling="0" style="width:240px; height: 30px;" allowTransparency="true"></iframe></td></tr></table>
