@@ -34,13 +34,26 @@ section {
         color: whitesmoke;
     }
   }
+  .fade-container {
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+    &.show {
+      opacity: 1;
+    }
+  }
   header {
-    padding: 2em 0 0.35em 0;
+    padding: 1.5em 0 0.35em 0;
     color: $t-header;
     font-weight: 800;
     font-size: 4em;
     text-shadow: 0 2px 0 $t-header-shadow;
     letter-spacing: -1px;
+    &.intro {
+      padding: 3.5em 0 0.35em 0;
+    }
+  }
+  article {
+    margin: 9em 0 0 0;
   }
   h2 {
     color: $t-header;
@@ -69,6 +82,12 @@ section {
         left: -25px;
     }
   }
+  h3 {
+    @extend li;
+    width: 16.6em;
+    margin: 1em auto 0;
+    text-align: right;
+  }
   table {
     margin: 0 auto !important;
   }
@@ -88,6 +107,11 @@ footer {
   &:hover {
     color: white;
   }
+}
+
+.slider span.pointer:after {
+  top: 7px !important;
+  left: 7px !important;
 }
 
 
