@@ -1,2 +1,1 @@
-var app = angular.module('app', ['uiSlider']);
-
+var app = angular.module('app', ['prettySlider']);
