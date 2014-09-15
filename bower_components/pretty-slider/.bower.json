@@ -1,0 +1,43 @@
+{
+  "name": "pretty-slider-bower",
+  "version": "0.0.3",
+  "homepage": "https://github.com/usmakestwo/angular-slider",
+  "authors": [
+    "Gonzalo Vazquez <gonzalo.segura1@gmail.com>",
+    "Ricardo Vazquez <iamricardovazquez@gmail.com"
+  ],
+  "description": "A jquery-less slider implementation for AngularJS",
+  "main": [
+    "./prettyslider.js",
+    "./prettyslider.css"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "slider",
+    "pretty",
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": ">= 1.2"
+  },
+  "_release": "0.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.3",
+    "commit": "3c32365ebc71c2df2574f275fb49fd8444f4cce5"
+  },
+  "_source": "git://github.com/usmakestwo/pretty-slider-bower.git",
+  "_target": "~0.0.3",
+  "_originalSource": "pretty-slider",
+  "_direct": true
+}

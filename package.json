@@ -1,31 +1,51 @@
 {
-  "name": "prettyslider-web",
-  "version": "0.0.0",
-  "dependencies": {},
-  "devDependencies": {
-    "connect": "^2.14.4",
-    "connect-livereload": "^0.4.0",
-    "gulp": "^3.6.0",
-    "gulp-autoprefixer": "^0.0.7",
-    "gulp-bower-files": "^0.2.1",
-    "gulp-cache": "^0.1.1",
-    "gulp-clean": "^0.2.4",
-    "gulp-csso": "^0.2.6",
-    "gulp-filter": "^0.4.1",
-    "gulp-flatten": "^0.0.2",
-    "gulp-imagemin": "^0.5.0",
-    "gulp-jshint": "^1.5.3",
-    "gulp-livereload": "^1.2.0",
-    "gulp-load-plugins": "^0.5.0",
-    "gulp-ruby-sass": "^0.4.3",
-    "gulp-size": "^0.3.0",
-    "gulp-uglify": "^0.2.1",
-    "gulp-useref": "^0.4.2",
-    "jshint-stylish": "^0.2.0",
-    "opn": "^0.1.1",
-    "wiredep": "^1.4.3"
+  "name": "pretty-slider",
+  "version": "0.0.1",
+  "author": "Us Makes Two",
+  "description": "A jquery-less slider implementation",
+  "private": true,
+  "contributors": [
+    {
+      "name": "Gonzalo Vazquez",
+      "email": "gonzalo.segura1@gmail.com"
+    },
+    {
+      "name": "Ricardo Vazquez",
+      "email": "iamricardovazquez@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usmakestwo/prettyslider-web.git"
   },
-  "engines": {
-    "node": ">=0.10.0"
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-jshint": "^1.6.1",
+    "karma": "^0.12.16",
+    "gulp-karma": "0.0.4",
+    "karma-jasmine": "^0.1.5",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-cli": "0.0.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-concat": "^2.2.0",
+    "gulp-uglify": "^0.3.0",
+    "gulp-livereload": "^1.5.0",
+    "connect": "^2.17.1",
+    "open": "0.0.5",
+    "gulp-minify-css": "^0.3.4",
+    "gulp-imagemin": "^0.5.0",
+    "colors": "^0.6.2",
+    "gulp-util": "^2.2.14",
+    "gulp-inject": "^0.4.1",
+    "gulp-clean": "^0.3.0",
+    "run-sequence": "^0.3.6",
+    "jshint-stylish": "^0.2.0",
+    "gulp-if": "^1.2.1",
+    "gulp-ruby-sass": "^0.5.0",
+    "bower": "^1.3.9",
+    "karma-ng-html2js-preprocessor": "^0.1.0",
+    "yargs": "^1.3.1",
+    "express": "^4.8.3"
   }
 }
